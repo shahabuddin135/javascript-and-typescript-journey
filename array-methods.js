@@ -33,7 +33,7 @@
 
 
 
-let numberArray = [9,2,7,6,5,4,3,8,1,0,10]
+// let numberArray = [9,2,7,6,5,4,3,8,1,0,10]
 
 // console.log( numberArray.reverse());
 
@@ -59,10 +59,69 @@ function sum (num1,num2){
 
 // sum(3,4)
 
-console.log(sum(3,7)); //undefined and prints 10 because it runs console.log
+// console.log(sum(3,7)); //undefined and prints 10 because it runs console.log
 
 function sub (num1,num2){
    return num1 - num2 // value returned
 }
 
-console.log(sub(3,5)); // -2 
+// console.log(sub(3,5)); // -2 
+
+
+
+//             0            1          2      3      4
+// let names = ["areeba","shahabuddin","dadi","Aisha","zara"]
+
+//pop() end value removal
+//push() end value addition
+//shift() removal from start
+//unshift() add value to start
+
+//What if we want to remove values from the middle?
+
+//we use splice()
+
+
+// let names = ["areeba","shahabuddin","dadi","Aisha","zara"]
+
+// let extractedValues = names.splice(1,2) // for removing values
+
+// names.splice(3,0,"Billi","mano")
+
+// console.log(names);
+
+// names.splice(2,1,"DADA")
+
+
+// console.log(extractedValues);
+// console.log(names);
+
+
+// finding middle value 
+// let names = ["areeba","shahabuddin","dadi","Aisha","zara","erri","waw","trei","cursor"]
+
+
+// 9/2
+
+// 4.5
+
+// let middleValue = names.splice(names.length / 2 , 1)
+
+// console.log(middleValue);
+
+
+
+// let duplicate = names.slice(3,5)
+//.length
+
+// let lastValue = names[names.length - 1]
+// console.log(names);
+
+// let reversedArray = names.reverse()
+// console.log(names);
+// let firstValue = names[0]
+// names.reverse()
+// console.log(firstValue);
+// console.log(names);
+// console.log(lastValue);
+// console.log(names.length);
