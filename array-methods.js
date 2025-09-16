@@ -125,3 +125,19 @@ function sub (num1,num2){
 // console.log(names);
 // console.log(lastValue);
 // console.log(names.length);
+
+
+
+//sorting for alphabets
+
+// let alphaArr = ["a","z","c","b","d"]
+
+// alphaArr.reverse()
+
+// console.log(alphaArr);
+
+// console.log(alphaArr.sort());
+
+
+
+
