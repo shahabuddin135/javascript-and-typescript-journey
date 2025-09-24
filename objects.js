@@ -43,7 +43,4 @@ let sum = person.sum(3,4)
 
 console.log(sum);
 
-
-
-
 console.log(person["name"]);
