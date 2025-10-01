@@ -1,0 +1,1 @@
+export default const birthday = 19;

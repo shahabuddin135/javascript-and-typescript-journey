@@ -1,25 +1,25 @@
 
-for( let count = 1; count <= 11; count ++ ){
+// for( let count = 1; count <= 11; count ++ ){
 
-    console.log(count);
+//     console.log(count);
     
-}
+// }
 
 
-const fruits = ["apple","banana","watermelon"]
+// const fruits = ["apple","banana","watermelon"]
 
 //for of loops
-for (let fruit of fruits){
+// for (let fruit of fruits){
 
-    console.log(`I love ${fruit}`);
+//     console.log(`I love ${fruit}`);
     
-}
+// }
 
 //for in loop
-for (let fruit in fruits){
-    console.log(fruit);
+// for (let fruit in fruits){
+//     console.log(fruit);
     
-}
+// }
 
 
 //Comparision operators
@@ -64,10 +64,10 @@ for (let fruit in fruits){
 
 // let fruit = randomFruit
 
-function subtract(num1,num2){
+// function subtract(num1,num2){
 
-    return num1 - num2
-}
+//     return num1 - num2
+// }
 
 // console.log(subtract(1,2));
 
@@ -78,14 +78,14 @@ function subtract(num1,num2){
 // }
 
 
-function GreetUser(userName = "Guest"){ //default parameter
+// function GreetUser(userName = "Guest"){ //default parameter
 
-    return `Hello ${userName}`
-}
+//     return `Hello ${userName}`
+// }
 
-let result = GreetUser()
+// let result = GreetUser()
 
-console.log(result);
+// console.log(result);
 
 
 
@@ -100,7 +100,7 @@ console.log(result);
 
 // 1 se 10
 
-let number = 0
+// let number = 0
 
 // while(number < 10){
 
@@ -112,17 +112,24 @@ let number = 0
 
 // console.log(10 < 10);
 
-do{
+// do{
 
-    console.log(`Hello ${number++}`);
+//     console.log(`Hello ${number++}`);
     
-}while(false)
+// }while(false)
 
 
 
 
-while (true){
+// while (true){
 
-    console.log("Happy Birth Day Areeba!", number++);
+//     console.log("Happy Birth Day Areeba!", number++);
     
-}
+// }
+
+
+
+
+
+
+
